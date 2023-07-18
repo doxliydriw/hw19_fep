@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  max-width: 1230px;
+  min-width: 991px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+li {
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+#category {
+  /* display: none; */
+  background-color: lightgoldenrodyellow;
+}
+
+#products {
+  display: none;
+  background-color: lightgrey;
+  flex-direction: column;
+}
+
+#product_info {
+  display: none;
+  flex-direction: column;
+  background-color: lightblue;
+}
